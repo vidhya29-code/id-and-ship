@@ -1,0 +1,10 @@
+for i in range(int(input())):
+    c=input()
+    if (c=='b' or c=='B'):
+        print("Battleship")
+    elif (c=='c' or c=='C'):
+        print("Cruiser")
+    elif (c=='d' or c=='D'):
+        print("Destroyer")
+    elif (c=='f' or c=='F'):
+        print("Frigate")
